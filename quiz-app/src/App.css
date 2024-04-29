@@ -1,0 +1,149 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #2d1650;
+}
+
+div#home {
+  text-align: center;
+  margin-top: 20vh;
+  margin-bottom: 30vh;
+}
+
+h1 {
+  padding: 1rem;
+  font-size: 3rem;
+  color: white;
+}
+
+button#start {
+  background-color: rgb(230, 198, 248);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-family: cursive;
+  font-size: 1rem;
+  box-shadow: 3px 3px 13px rgb(116, 92, 223);
+}
+
+button#start:hover {
+  background-color: #e5d2f9;
+  transition-duration: 0.3s;
+  border-radius: 20px;
+  color: #2d1650;
+  cursor: pointer;
+}
+
+div#question {
+  background-color: #e5d2f9;
+  padding: 2rem;
+  width: 70vw;
+  text-align: center;
+  margin: 16vh auto;
+}
+
+h2 {
+  color: #2d1650;
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+div#question div.no {
+  text-align: left;
+}
+
+div#question div.ques {
+  font-size: 1.4rem;
+  margin: 5vh;
+}
+
+div.options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 5vh auto;
+}
+
+div.options div {
+  background-color: #3f0a8e;
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+div.options div:hover {
+  background-color: #220e3f;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+div.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+div.buttons div {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+div.buttons div:nth-of-type(1) {
+  background-color: #85a3f1;
+}
+
+div.buttons div:nth-of-type(1):hover {
+  background-color: #4575ee;
+  transform: scale(1.04);
+  transition-duration: 0.5s;
+}
+
+div.buttons div:nth-of-type(2) {
+  background-color: rgb(109, 162, 109);
+}
+
+div.buttons div:nth-of-type(2):hover {
+  background-color: green;
+  transform: scale(1.04);
+  transition-duration: 0.5s;
+}
+
+div.buttons div:nth-of-type(3) {
+  background-color: rgb(225, 98, 98);
+}
+
+div.buttons div:nth-of-type(3):hover {
+  background-color: red;
+  transform: scale(1.04);
+  transition-duration: 0.5s;
+}
+
+div.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+div.list div {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 2vh;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 3rem;
+  color: green;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10vh;
+}
